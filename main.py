@@ -63,7 +63,7 @@ class PhoneNumber:
     print('[1]', end = "")
     print(' Пробив по номеру')
     def __init__(self):
-        self.number = input(Fore.WHITE +'[+]' + Fore.RED+  ' Введите номер телефона: ')
+        self.number = input(Fore.WHITE +'[+]' + Fore.RED+  ' Введите номер телефона с + без пробелов: ')
         self.output()
 
     def default_info(self):

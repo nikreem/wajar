@@ -134,4 +134,5 @@ class PhoneNumber:
 
 
 colorama.init()
-PhoneNumber()
+while True:
+	PhoneNumber()

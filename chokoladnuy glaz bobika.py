@@ -33,3 +33,6 @@ def phone_info_main(phone):
 
 z = input(Fore.WHITE +'[+]' + Fore.RED+  ' Введите номер телефона без +: ')
 phone_info_main(z)
+'''
+возможно ограничение по количеству запросов с одного ip 
+'''
